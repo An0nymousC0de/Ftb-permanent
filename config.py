@@ -18,12 +18,12 @@ def is_enabled(value, default):
         return default
       
 # Bot Information
-API_ID = int(environ.get("API_ID", "27705761"))
-API_HASH = environ.get("API_HASH", "822cb334ca4527a134aae97f9fe44fd6")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7481834594:AAHaWqvtbWjuNLYHJYn04G5JKJHbTLL7UjU")
+API_ID = int(environ.get("API_ID", "26512989"))
+API_HASH = environ.get("API_HASH", "18384653bbc502e6134b104c139e70f2")
+BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/fdb22e0674cd9f9ac1c24.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5414733218').split()]
+PICS = (environ.get('PICS', 'https://graph.org/file/4bcfd34906b967165f432.jpg')).split() # Bot Start Picture
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6987158459').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "FilePr0viderBot") # without @
 PORT = environ.get("PORT", "8080")
 
@@ -31,12 +31,12 @@ PORT = environ.get("PORT", "8080")
 CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
 
 # If Clone Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://yefixi9254:hu8ldGaA0ledNFiO@cluster0.af4er1c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
 DB_URI = environ.get("DB_URI", "mongodb+srv://akashrabha2005:781120@cluster0.pv6yd2f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = environ.get("DB_NAME", "axombotz")
+DB_NAME = environ.get("DB_NAME", "techvjbotz")
 
 # Auto Delete Information
 AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', True)) # Set True or False
