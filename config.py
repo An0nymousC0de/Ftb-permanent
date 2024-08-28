@@ -20,11 +20,11 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "27705761"))
 API_HASH = environ.get("API_HASH", "822cb334ca4527a134aae97f9fe44fd6")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7007013085:AAFnwOu98PZ48-nhUOWNNTCB4U3TAMFsECg")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7481834594:AAHaWqvtbWjuNLYHJYn04G5JKJHbTLL7UjU")
 
 PICS = (environ.get('PICS', 'https://telegra.ph/file/fdb22e0674cd9f9ac1c24.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5414733218').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "FilesStreamXBot") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "FilePr0viderBot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -46,7 +46,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002234510354"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002242443609"))
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
